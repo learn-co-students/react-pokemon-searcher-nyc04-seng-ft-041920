@@ -1340,6 +1340,24 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "totodile",
+      "hp": 50,
+      "sprites": {
+        "front": "https://vignette.wikia.nocookie.net/pokemonwack/images/5/5d/158.png/revision/latest/scale-to-width-down/340?cb=20200308125510",
+        "back": "https://vignette.wikia.nocookie.net/pokemon-reborn/images/e/e8/158b.png/revision/latest/scale-to-width-down/340?cb=20170531014250"
+      },
+      "id": 151
+    },
+    {
+      "name": "bulbasaur",
+      "hp": 45,
+      "sprites": {
+        "front": "https://vignette.wikia.nocookie.net/pokemonwack/images/0/03/001.png/revision/latest?cb=20191127152523",
+        "back": "https://vignette.wikia.nocookie.net/pokemonwack/images/0/03/001.png/revision/latest?cb=20191127152523"
+      },
+      "id": 152
     }
   ]
 }
