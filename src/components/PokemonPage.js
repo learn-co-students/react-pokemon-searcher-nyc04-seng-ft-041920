@@ -22,14 +22,18 @@ class PokemonPage extends React.Component {
     })
   }
 
+  // handleSetSearchTerm will receive as an argument the event.target.value
+  // from the user search input
   handleSetSearchTerm = (value) => {
     this.setState({
       searchTerm: value
     })
   }
 
+  // get the response back from POST fetch
   addPokemon = (newPoke) => {
     this.setState({
+      // spread operator
       pokemons: [newPoke, ...this.state.pokemons]
     })
   }

@@ -3,6 +3,7 @@ import React from 'react'
 const Search = ({ searchTerm, setSearchTerm }) => {
 
   const handleInputValue = (e) => {
+    // passing the user's search input
     setSearchTerm(e.target.value)
   }
 
