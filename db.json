@@ -1340,6 +1340,24 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "Anastasia",
+      "hp": 100,
+      "sprites": {
+        "front": "img",
+        "back": "img2"
+      },
+      "id": 151
+    },
+    {
+      "name": "Bulbasaur",
+      "hp": 47,
+      "sprites": {
+        "front": "img",
+        "back": "img2"
+      },
+      "id": 152
     }
   ]
 }
