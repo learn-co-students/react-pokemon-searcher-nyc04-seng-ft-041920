@@ -12,6 +12,8 @@ class PokemonPage extends React.Component {
       pokemons: []
     }
   }
+  
+  
 
   fetchAllPokemons(){
     fetch('http://localhost:3000/pokemon')
@@ -68,6 +70,7 @@ class PokemonPage extends React.Component {
   }
 
   render() {
+
     return (
       <Container>
         <h1>Pokemon Searcher</h1>
@@ -83,3 +86,4 @@ class PokemonPage extends React.Component {
 }
 
 export default PokemonPage
+
