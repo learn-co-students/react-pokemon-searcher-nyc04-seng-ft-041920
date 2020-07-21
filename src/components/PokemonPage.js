@@ -30,7 +30,8 @@ class PokemonPage extends React.Component {
   onSearch = (term) => {
     if(term){
       let filtered = this.state.pokemons.filter(pokemon => {
-        return pokemon.name === term 
+        //return pokemon.name === term 
+        return pokemon.name.includes(term)
       })
       this.setState({
         pokemons: filtered
