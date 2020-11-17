@@ -26,6 +26,7 @@ class PokemonPage extends React.Component {
       pokemon: [newPoke, ...this.state.pokemon]
     })
   }
+  
   handleSearchTerm = (searchTerm) => {
     this.setState ({
       searchTerm: searchTerm
